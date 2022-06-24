@@ -1,6 +1,6 @@
-# choices
+# multiple-choices
 
-Adjusts the choices of the multiple choice question automatically.
+Adjusts the choices of the multiple-choice question automatically.
 
 ## Usage
 
@@ -10,7 +10,7 @@ See the documentation.
 
 ```latex
 \documentclass{article}
-\usepackage{choices}
+\usepackage{multiple-choices}
 
 \begin{document}
     \begin{choices}

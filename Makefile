@@ -1,4 +1,4 @@
-PKG=choices
+PKG=multiple-choices
 
 all: doc clean
 
@@ -10,7 +10,8 @@ clean:
 	-rm *.aux *.log *.toc *.idx *.hd *~ *.out
 
 ctan: clean
-	rm -rfv $(PKG)
+	-rm -rfv $(PKG)
+	-rm -rfv $(PKG).zip
 	mkdir -p $(PKG)/doc $(PKG)/tex
 	cp -v README        $(PKG)
 	cp -v $(PKG).sty    $(PKG)/tex

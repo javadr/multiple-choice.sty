@@ -1,12 +1,12 @@
 _____________________
-The choices package
-v0.1
+The multiple-choices package
+v0.2
 
 This package adjusts the choices of the multiple-choice question automatically.
 
 It has been wholly inspired by the work of Enrico Gregorio
 and improved by Vafa Khalighi and I just packed it and
-redistributed it under the name of the `choices` package.
+redistributed it under the name of the `multiple-choices` package.
 
 Current version release date: 2022/06/24
 ___________________
