@@ -1,0 +1,22 @@
+_____________________
+The choices package
+v0.1
+
+This package adjusts the choices of the multiple choice question automatically.
+
+It is wholly inspired by the work of Enrico Gregorio
+and improved by Vafa Khalighi and I am just packed it and
+redistribute it under the name of `choices` package.
+
+Current version release date: 2022/06/24
+___________________
+Seiied-Mohammad-Javad Razvian
+javadr at gmail dot com
+
+Copyright © 2022
+It may be distributed and/or modified under the LaTeX Project Public License,
+version 1.3c or higher (your choice). The latest version of
+this license is at: http://www.latex-project.org/lppl.txt
+
+This work is “author-maintained” (as per LPPL maintenance status)
+by Seiied-Mohammad-Javad Razavian.
