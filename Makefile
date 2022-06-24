@@ -1,4 +1,4 @@
-PKG=multiple-choices
+PKG=multiple-choice
 
 all: doc clean
 
@@ -17,6 +17,4 @@ ctan: clean
 	cp -v $(PKG).sty    $(PKG)/tex
 	cp -v $(PKG)-doc.* $(PKG)/doc
 	zip -r $(PKG).zip $(PKG)
-	# mv -fv $(PKG).zip ..
 	rm -rfv $(PKG)
-	# mv -fv $(PKG) ..

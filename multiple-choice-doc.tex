@@ -6,7 +6,7 @@
 \usepackage{listings}
 \usepackage{xcolor}
 \usepackage{multicol}
-\usepackage{multiple-choices}
+\usepackage{multiple-choice}
 
 \lstdefinestyle{BashInputStyle}{
   basicstyle=\footnotesize\sffamily,
@@ -16,8 +16,8 @@
 }
 \lstset{basicstyle=\ttfamily}
 
-\title{The \xpackage{multiple-choices} Package}
-\author{Seiied Mohammad Javad Razavian\\\xemail{javadr@gmail.com}}
+\title{The \xpackage{multiple-choice} Package}
+\author{Seiied Mohammad Javad Razavian}
 
 \date{\choicesdate,\space version \choicesversion}
  
@@ -30,20 +30,20 @@
 \centerline{\large\bfseries Abstract}
 \bigskip
 \begin{multicols}{2}
-The \xpackage{multiple-choices} package adjusts the choices of the multiple-choice question automatically.
+The \xpackage{multiple-choice} package adjusts the choices of the multiple-choice question automatically.
 It has been wholly inspired by the work of Enrico Gregorio\footnote{\url{https://tex.stackexchange.com/questions/140923}}
-and improved by Vafa Khalighi. I just packed and redistributed it. It works with \XeLaTeX, \pdfLaTeX, and \LuaLaTeX.
+and improved by Vafa Khalighi. I've just packed and redistributed it. It works with \XeLaTeX, \pdfLaTeX, and \LuaLaTeX.
 Please, report any issues including bugs, typos in the documentation
-or feature requests on \url{https://github.com/javadr/choices/issues}.
+or feature requests on \url{https://github.com/javadr/multiple-choice.sty/issues}.
 \end{multicols}
  }
  
  \section{Loading Package}
 The package can be loaded in the ordinary way
-\cs{usepackage{multiple-choices}}.
+\cs{usepackage{multiple-choice}}.
 
-\section{Typesetting the multiple choices}
- The package defines the \texttt{choices} environment with the \cs{choice} macro for the choices of the question.
+\section{Typesetting the multiple-choice question}
+ The package defines the \texttt{choices} environment with the \cs{choice} macro for the choices of the multiple-chocie question.
 
 \begin{lstlisting}[style=BashInputStyle, escapechar={|},]
 \begin{choices}

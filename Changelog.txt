@@ -1,4 +1,4 @@
 % 24 June 2022: ver 0.2
-%%  - renamed to `multiple-choices'
+%%  - renamed to `multiple-choice'
 % 24 June 2022: ver 0.1
 %%  - Initial release
